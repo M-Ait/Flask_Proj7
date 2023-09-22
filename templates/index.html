@@ -1,0 +1,14 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Prédiction Projet 7</title>
+</head>
+<body>
+   <hl>Demande de prêt bancaire</hl>
+   <form action="{{url_for('predict_get1')}}" method="post">
+    <input type="number" name="sk_id" placeholder="Enter client ID"></input>
+    <button type="submit">predict</button>
+   </form>
+</body>
+</html>
